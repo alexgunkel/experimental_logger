@@ -7,21 +7,22 @@ void FileLogger::log(int loglevel, std::__cxx11::string s)
   this->writeToFile(m);
 }
 
-void FileLogger::setTarget( std::__cxx11::string target)
+void FileLogger::setTarget( const char* target)
 {
   this->target = target;
 }
 
-std::__cxx11::string FileLogger::getTarget()
+const char* FileLogger::getTarget()
 {
   return this->target;
 }
 
 void FileLogger::writeToFile(Message* m)
 {
-  std::cout << m->getContent() << std::endl;
-  std::ofstream myFile(this->getTarget(), std::ios::ate);
-  myFile << m->getContent() << std::endl;
-  myFile.close();
+  FILE *myFile;
+  myFile = std::fopen( this->getTarget(), "a");
+  std::fprintf( myFile, m->getContent().c_str());
+  std::fprintf( myFile, "\n");
+  std::fclose(myFile);
 }
 

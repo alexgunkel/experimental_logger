@@ -9,14 +9,14 @@
 class FileLogger : public AbstractLogger
 {
 private:
-  std::string target;
+  const char* target;
   
   void writeToFile(Message* m);
 public:
   void log( int loglevel,  std::string  );
   
-  void setTarget( std::string target);
-  std::string getTarget();
+  void setTarget( const char* target);
+  const char* getTarget();
 };
 
 #endif

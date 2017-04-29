@@ -5,7 +5,7 @@
 int main(int argc, char **argv) {
   std::string message;
   std::cout << "Nachricht:" << std::endl;
-  std::cin >> message;
+  std::getline(std::cin, message);
   
   FileLogger* fLogger = new FileLogger;
   fLogger->setTarget("./log.txt");

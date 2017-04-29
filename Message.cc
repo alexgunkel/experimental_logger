@@ -9,7 +9,7 @@ Message::Message()
 
 Message::Message( std::string message )
 {
-  content = message;
+  this->content = message;
   size = message.size();
   Message::initCreateTime();
 }
@@ -24,7 +24,7 @@ void Message::initCreateTime()
 
 std::string Message::getContent()
 {
-  return content;
+  return this->content;
 }
 
 
