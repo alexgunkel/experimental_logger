@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/alexander/Programming/c++/Logger/Helper/Time.cc" "/home/alexander/Programming/c++/Logger/build/CMakeFiles/logger.dir/Helper/Time.cc.o"
   "/home/alexander/Programming/c++/Logger/Logger/AbstractLogger.cc" "/home/alexander/Programming/c++/Logger/build/CMakeFiles/logger.dir/Logger/AbstractLogger.cc.o"
   "/home/alexander/Programming/c++/Logger/Logger/ChromeLogger.cc" "/home/alexander/Programming/c++/Logger/build/CMakeFiles/logger.dir/Logger/ChromeLogger.cc.o"
   "/home/alexander/Programming/c++/Logger/Logger/DummyLogger.cc" "/home/alexander/Programming/c++/Logger/build/CMakeFiles/logger.dir/Logger/DummyLogger.cc.o"

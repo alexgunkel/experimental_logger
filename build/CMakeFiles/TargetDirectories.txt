@@ -11,3 +11,9 @@
 /home/alexander/Programming/c++/Logger/build/Logger/CMakeFiles/install/local.dir
 /home/alexander/Programming/c++/Logger/build/Logger/CMakeFiles/rebuild_cache.dir
 /home/alexander/Programming/c++/Logger/build/Logger/CMakeFiles/edit_cache.dir
+/home/alexander/Programming/c++/Logger/build/Helper/CMakeFiles/install.dir
+/home/alexander/Programming/c++/Logger/build/Helper/CMakeFiles/list_install_components.dir
+/home/alexander/Programming/c++/Logger/build/Helper/CMakeFiles/install/strip.dir
+/home/alexander/Programming/c++/Logger/build/Helper/CMakeFiles/install/local.dir
+/home/alexander/Programming/c++/Logger/build/Helper/CMakeFiles/rebuild_cache.dir
+/home/alexander/Programming/c++/Logger/build/Helper/CMakeFiles/edit_cache.dir

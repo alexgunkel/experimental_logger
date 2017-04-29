@@ -4,23 +4,15 @@ using std::chrono::system_clock;
 
 Message::Message()
 {
-  Message::initCreateTime();
+  this->creationTime = new LoggerTime;
 }
 
 Message::Message( std::string message )
 {
   this->content = message;
   size = message.size();
-  Message::initCreateTime();
+  this->creationTime = new LoggerTime;
 }
-
-void Message::initCreateTime()
-{
-  create_time = duration_cast< milliseconds >(
-    system_clock::now().time_since_epoch()
-  );
-}
-
 
 std::string Message::getContent()
 {
@@ -28,9 +20,9 @@ std::string Message::getContent()
 }
 
 
-milliseconds Message::getCreationTime()
+char* Message::getCreationTime()
 {
-  return create_time;
+  return this->creationTime->getTimeAsString();
 }
 
 short int Message::getSize()

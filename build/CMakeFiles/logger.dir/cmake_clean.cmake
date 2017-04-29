@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/logger.dir/Helper/Time.cc.o"
   "CMakeFiles/logger.dir/Logger/AbstractLogger.cc.o"
   "CMakeFiles/logger.dir/Logger/FileLogger.cc.o"
   "CMakeFiles/logger.dir/Logger/ChromeLogger.cc.o"

@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/alexander/Programming/c++/Logger/Helper/Time.cc
+Time.h
+/home/alexander/Programming/c++/Logger/Helper/Time.h
+
+/home/alexander/Programming/c++/Logger/Helper/Time.h
+ctime
+-
+chrono
+-
+
 /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.cc
 AbstractLogger.h
 /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.h
@@ -67,10 +77,10 @@ Message.h
 /home/alexander/Programming/c++/Logger/Message.h
 iostream
 -
-chrono
--
 string
 -
+Helper/Time.h
+/home/alexander/Programming/c++/Logger/Helper/Time.h
 
 /home/alexander/Programming/c++/Logger/loglevel_RFC_5424.cc
 loglevel_RFC_5424.h

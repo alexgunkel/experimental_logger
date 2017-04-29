@@ -1,25 +1,22 @@
 #ifndef _message
 #define _message
 #include <iostream>
-#include <chrono>
 #include <string>
+#include "Helper/Time.h"
 
-using namespace std::chrono;
 
 class Message
 {
 private:
-  milliseconds create_time;
+  LoggerTime* creationTime;
   short int size;
   std::string content;
-  
-  void initCreateTime();
   
 public:
   Message();
   Message( std::string );
   std::string getContent();
-  milliseconds getCreationTime();
+  char* getCreationTime();
   short int getSize();
 };
 

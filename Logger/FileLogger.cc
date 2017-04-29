@@ -21,6 +21,7 @@ void FileLogger::writeToFile(Message* m)
 {
   FILE *myFile;
   myFile = std::fopen( this->getTarget(), "a");
+  std::fprintf( myFile, m->getCreationTime());
   std::fprintf( myFile, m->getContent().c_str());
   std::fprintf( myFile, "\n");
   std::fclose(myFile);

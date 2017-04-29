@@ -167,6 +167,33 @@ logger/fast:
 	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/build
 .PHONY : logger/fast
 
+Helper/Time.o: Helper/Time.cc.o
+
+.PHONY : Helper/Time.o
+
+# target to build an object file
+Helper/Time.cc.o:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Helper/Time.cc.o
+.PHONY : Helper/Time.cc.o
+
+Helper/Time.i: Helper/Time.cc.i
+
+.PHONY : Helper/Time.i
+
+# target to preprocess a source file
+Helper/Time.cc.i:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Helper/Time.cc.i
+.PHONY : Helper/Time.cc.i
+
+Helper/Time.s: Helper/Time.cc.s
+
+.PHONY : Helper/Time.s
+
+# target to generate assembly for a file
+Helper/Time.cc.s:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Helper/Time.cc.s
+.PHONY : Helper/Time.cc.s
+
 Logger/AbstractLogger.o: Logger/AbstractLogger.cc.o
 
 .PHONY : Logger/AbstractLogger.o
@@ -423,6 +450,9 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
+	@echo "... Helper/Time.o"
+	@echo "... Helper/Time.i"
+	@echo "... Helper/Time.s"
 	@echo "... Logger/AbstractLogger.o"
 	@echo "... Logger/AbstractLogger.i"
 	@echo "... Logger/AbstractLogger.s"
