@@ -2,7 +2,6 @@
 
 void FileLogger::log(int loglevel, std::__cxx11::string s)
 {
-  std::cout << "Called FileLogger" << std::endl;
   Message* m = new Message(s);
   this->writeToFile(m);
 }
