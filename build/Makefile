@@ -194,6 +194,60 @@ Helper/Time.cc.s:
 	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Helper/Time.cc.s
 .PHONY : Helper/Time.cc.s
 
+Libraries/loglevel_RFC_5424.o: Libraries/loglevel_RFC_5424.cc.o
+
+.PHONY : Libraries/loglevel_RFC_5424.o
+
+# target to build an object file
+Libraries/loglevel_RFC_5424.cc.o:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o
+.PHONY : Libraries/loglevel_RFC_5424.cc.o
+
+Libraries/loglevel_RFC_5424.i: Libraries/loglevel_RFC_5424.cc.i
+
+.PHONY : Libraries/loglevel_RFC_5424.i
+
+# target to preprocess a source file
+Libraries/loglevel_RFC_5424.cc.i:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.i
+.PHONY : Libraries/loglevel_RFC_5424.cc.i
+
+Libraries/loglevel_RFC_5424.s: Libraries/loglevel_RFC_5424.cc.s
+
+.PHONY : Libraries/loglevel_RFC_5424.s
+
+# target to generate assembly for a file
+Libraries/loglevel_RFC_5424.cc.s:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.s
+.PHONY : Libraries/loglevel_RFC_5424.cc.s
+
+Libraries/loglevel_names.o: Libraries/loglevel_names.cc.o
+
+.PHONY : Libraries/loglevel_names.o
+
+# target to build an object file
+Libraries/loglevel_names.cc.o:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o
+.PHONY : Libraries/loglevel_names.cc.o
+
+Libraries/loglevel_names.i: Libraries/loglevel_names.cc.i
+
+.PHONY : Libraries/loglevel_names.i
+
+# target to preprocess a source file
+Libraries/loglevel_names.cc.i:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_names.cc.i
+.PHONY : Libraries/loglevel_names.cc.i
+
+Libraries/loglevel_names.s: Libraries/loglevel_names.cc.s
+
+.PHONY : Libraries/loglevel_names.s
+
+# target to generate assembly for a file
+Libraries/loglevel_names.cc.s:
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_names.cc.s
+.PHONY : Libraries/loglevel_names.cc.s
+
 Logger/AbstractLogger.o: Logger/AbstractLogger.cc.o
 
 .PHONY : Logger/AbstractLogger.o
@@ -356,60 +410,6 @@ Message.cc.s:
 	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Message.cc.s
 .PHONY : Message.cc.s
 
-loglevel_RFC_5424.o: loglevel_RFC_5424.cc.o
-
-.PHONY : loglevel_RFC_5424.o
-
-# target to build an object file
-loglevel_RFC_5424.cc.o:
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o
-.PHONY : loglevel_RFC_5424.cc.o
-
-loglevel_RFC_5424.i: loglevel_RFC_5424.cc.i
-
-.PHONY : loglevel_RFC_5424.i
-
-# target to preprocess a source file
-loglevel_RFC_5424.cc.i:
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_RFC_5424.cc.i
-.PHONY : loglevel_RFC_5424.cc.i
-
-loglevel_RFC_5424.s: loglevel_RFC_5424.cc.s
-
-.PHONY : loglevel_RFC_5424.s
-
-# target to generate assembly for a file
-loglevel_RFC_5424.cc.s:
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_RFC_5424.cc.s
-.PHONY : loglevel_RFC_5424.cc.s
-
-loglevel_names.o: loglevel_names.cc.o
-
-.PHONY : loglevel_names.o
-
-# target to build an object file
-loglevel_names.cc.o:
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_names.cc.o
-.PHONY : loglevel_names.cc.o
-
-loglevel_names.i: loglevel_names.cc.i
-
-.PHONY : loglevel_names.i
-
-# target to preprocess a source file
-loglevel_names.cc.i:
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_names.cc.i
-.PHONY : loglevel_names.cc.i
-
-loglevel_names.s: loglevel_names.cc.s
-
-.PHONY : loglevel_names.s
-
-# target to generate assembly for a file
-loglevel_names.cc.s:
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_names.cc.s
-.PHONY : loglevel_names.cc.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -453,6 +453,12 @@ help:
 	@echo "... Helper/Time.o"
 	@echo "... Helper/Time.i"
 	@echo "... Helper/Time.s"
+	@echo "... Libraries/loglevel_RFC_5424.o"
+	@echo "... Libraries/loglevel_RFC_5424.i"
+	@echo "... Libraries/loglevel_RFC_5424.s"
+	@echo "... Libraries/loglevel_names.o"
+	@echo "... Libraries/loglevel_names.i"
+	@echo "... Libraries/loglevel_names.s"
 	@echo "... Logger/AbstractLogger.o"
 	@echo "... Logger/AbstractLogger.i"
 	@echo "... Logger/AbstractLogger.s"
@@ -471,12 +477,6 @@ help:
 	@echo "... Message.o"
 	@echo "... Message.i"
 	@echo "... Message.s"
-	@echo "... loglevel_RFC_5424.o"
-	@echo "... loglevel_RFC_5424.i"
-	@echo "... loglevel_RFC_5424.s"
-	@echo "... loglevel_names.o"
-	@echo "... loglevel_names.i"
-	@echo "... loglevel_names.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

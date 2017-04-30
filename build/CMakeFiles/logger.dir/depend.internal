@@ -4,10 +4,16 @@
 CMakeFiles/logger.dir/Helper/Time.cc.o
  /home/alexander/Programming/c++/Logger/Helper/Time.cc
  /home/alexander/Programming/c++/Logger/Helper/Time.h
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o
+ /home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.cc
+ /home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.h
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o
+ /home/alexander/Programming/c++/Logger/Libraries/loglevel_names.cc
+ /home/alexander/Programming/c++/Logger/Libraries/loglevel_names.h
 CMakeFiles/logger.dir/Logger/AbstractLogger.cc.o
+ /home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.h
  /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.cc
  /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.h
- /home/alexander/Programming/c++/Logger/loglevel_RFC_5424.h
 CMakeFiles/logger.dir/Logger/ChromeLogger.cc.o
  /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.h
  /home/alexander/Programming/c++/Logger/Logger/ChromeLogger.cc
@@ -32,12 +38,6 @@ CMakeFiles/logger.dir/Message.cc.o
  /home/alexander/Programming/c++/Logger/Helper/Time.h
  /home/alexander/Programming/c++/Logger/Message.cc
  /home/alexander/Programming/c++/Logger/Message.h
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o
- /home/alexander/Programming/c++/Logger/loglevel_RFC_5424.cc
- /home/alexander/Programming/c++/Logger/loglevel_RFC_5424.h
-CMakeFiles/logger.dir/loglevel_names.cc.o
- /home/alexander/Programming/c++/Logger/loglevel_names.cc
- /home/alexander/Programming/c++/Logger/loglevel_names.h
 CMakeFiles/logger.dir/main.cpp.o
  /home/alexander/Programming/c++/Logger/Helper/Time.h
  /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.h

@@ -52,6 +52,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/alexander/Programming/c++/Logger/build/Logger/cmake_install.cmake")
   include("/home/alexander/Programming/c++/Logger/build/Helper/cmake_install.cmake")
+  include("/home/alexander/Programming/c++/Logger/build/Libraries/cmake_install.cmake")
 
 endif()
 

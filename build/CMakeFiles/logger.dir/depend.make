@@ -4,9 +4,15 @@
 CMakeFiles/logger.dir/Helper/Time.cc.o: ../Helper/Time.cc
 CMakeFiles/logger.dir/Helper/Time.cc.o: ../Helper/Time.h
 
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o: ../Libraries/loglevel_RFC_5424.cc
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o: ../Libraries/loglevel_RFC_5424.h
+
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o: ../Libraries/loglevel_names.cc
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o: ../Libraries/loglevel_names.h
+
+CMakeFiles/logger.dir/Logger/AbstractLogger.cc.o: ../Libraries/loglevel_RFC_5424.h
 CMakeFiles/logger.dir/Logger/AbstractLogger.cc.o: ../Logger/AbstractLogger.cc
 CMakeFiles/logger.dir/Logger/AbstractLogger.cc.o: ../Logger/AbstractLogger.h
-CMakeFiles/logger.dir/Logger/AbstractLogger.cc.o: ../loglevel_RFC_5424.h
 
 CMakeFiles/logger.dir/Logger/ChromeLogger.cc.o: ../Logger/AbstractLogger.h
 CMakeFiles/logger.dir/Logger/ChromeLogger.cc.o: ../Logger/ChromeLogger.cc
@@ -31,12 +37,6 @@ CMakeFiles/logger.dir/Logger/NullLogger.cc.o: ../Logger/NullLogger.h
 CMakeFiles/logger.dir/Message.cc.o: ../Helper/Time.h
 CMakeFiles/logger.dir/Message.cc.o: ../Message.cc
 CMakeFiles/logger.dir/Message.cc.o: ../Message.h
-
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o: ../loglevel_RFC_5424.cc
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o: ../loglevel_RFC_5424.h
-
-CMakeFiles/logger.dir/loglevel_names.cc.o: ../loglevel_names.cc
-CMakeFiles/logger.dir/loglevel_names.cc.o: ../loglevel_names.h
 
 CMakeFiles/logger.dir/main.cpp.o: ../Helper/Time.h
 CMakeFiles/logger.dir/main.cpp.o: ../Logger/AbstractLogger.h

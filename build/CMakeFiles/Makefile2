@@ -133,6 +133,24 @@ Helper/preinstall:
 .PHONY : Helper/preinstall
 
 #=============================================================================
+# Directory level rules for directory Libraries
+
+# Convenience name for "all" pass in the directory.
+Libraries/all:
+
+.PHONY : Libraries/all
+
+# Convenience name for "clean" pass in the directory.
+Libraries/clean:
+
+.PHONY : Libraries/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Libraries/preinstall:
+
+.PHONY : Libraries/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -225,52 +225,52 @@ CMakeFiles/logger.dir/Message.cc.o.provides: CMakeFiles/logger.dir/Message.cc.o.
 CMakeFiles/logger.dir/Message.cc.o.provides.build: CMakeFiles/logger.dir/Message.cc.o
 
 
-CMakeFiles/logger.dir/loglevel_names.cc.o: CMakeFiles/logger.dir/flags.make
-CMakeFiles/logger.dir/loglevel_names.cc.o: ../loglevel_names.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexander/Programming/c++/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/logger.dir/loglevel_names.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/logger.dir/loglevel_names.cc.o -c /home/alexander/Programming/c++/Logger/loglevel_names.cc
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o: CMakeFiles/logger.dir/flags.make
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o: ../Libraries/loglevel_names.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexander/Programming/c++/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o -c /home/alexander/Programming/c++/Logger/Libraries/loglevel_names.cc
 
-CMakeFiles/logger.dir/loglevel_names.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logger.dir/loglevel_names.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexander/Programming/c++/Logger/loglevel_names.cc > CMakeFiles/logger.dir/loglevel_names.cc.i
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logger.dir/Libraries/loglevel_names.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexander/Programming/c++/Logger/Libraries/loglevel_names.cc > CMakeFiles/logger.dir/Libraries/loglevel_names.cc.i
 
-CMakeFiles/logger.dir/loglevel_names.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logger.dir/loglevel_names.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexander/Programming/c++/Logger/loglevel_names.cc -o CMakeFiles/logger.dir/loglevel_names.cc.s
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logger.dir/Libraries/loglevel_names.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexander/Programming/c++/Logger/Libraries/loglevel_names.cc -o CMakeFiles/logger.dir/Libraries/loglevel_names.cc.s
 
-CMakeFiles/logger.dir/loglevel_names.cc.o.requires:
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.requires:
 
-.PHONY : CMakeFiles/logger.dir/loglevel_names.cc.o.requires
+.PHONY : CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.requires
 
-CMakeFiles/logger.dir/loglevel_names.cc.o.provides: CMakeFiles/logger.dir/loglevel_names.cc.o.requires
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_names.cc.o.provides.build
-.PHONY : CMakeFiles/logger.dir/loglevel_names.cc.o.provides
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.provides: CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.requires
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.provides.build
+.PHONY : CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.provides
 
-CMakeFiles/logger.dir/loglevel_names.cc.o.provides.build: CMakeFiles/logger.dir/loglevel_names.cc.o
+CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.provides.build: CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o
 
 
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o: CMakeFiles/logger.dir/flags.make
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o: ../loglevel_RFC_5424.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexander/Programming/c++/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o -c /home/alexander/Programming/c++/Logger/loglevel_RFC_5424.cc
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o: CMakeFiles/logger.dir/flags.make
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o: ../Libraries/loglevel_RFC_5424.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexander/Programming/c++/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o -c /home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.cc
 
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logger.dir/loglevel_RFC_5424.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexander/Programming/c++/Logger/loglevel_RFC_5424.cc > CMakeFiles/logger.dir/loglevel_RFC_5424.cc.i
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.cc > CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.i
 
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logger.dir/loglevel_RFC_5424.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexander/Programming/c++/Logger/loglevel_RFC_5424.cc -o CMakeFiles/logger.dir/loglevel_RFC_5424.cc.s
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.cc -o CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.s
 
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.requires:
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.requires:
 
-.PHONY : CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.requires
+.PHONY : CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.requires
 
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.provides: CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.requires
-	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.provides.build
-.PHONY : CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.provides
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.provides: CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.requires
+	$(MAKE) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.provides.build
+.PHONY : CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.provides
 
-CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.provides.build: CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o
+CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.provides.build: CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o
 
 
 CMakeFiles/logger.dir/main.cpp.o: CMakeFiles/logger.dir/flags.make
@@ -306,8 +306,8 @@ logger_OBJECTS = \
 "CMakeFiles/logger.dir/Logger/DummyLogger.cc.o" \
 "CMakeFiles/logger.dir/Logger/NullLogger.cc.o" \
 "CMakeFiles/logger.dir/Message.cc.o" \
-"CMakeFiles/logger.dir/loglevel_names.cc.o" \
-"CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o" \
+"CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o" \
+"CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o" \
 "CMakeFiles/logger.dir/main.cpp.o"
 
 # External object files for target logger
@@ -320,8 +320,8 @@ logger: CMakeFiles/logger.dir/Logger/ChromeLogger.cc.o
 logger: CMakeFiles/logger.dir/Logger/DummyLogger.cc.o
 logger: CMakeFiles/logger.dir/Logger/NullLogger.cc.o
 logger: CMakeFiles/logger.dir/Message.cc.o
-logger: CMakeFiles/logger.dir/loglevel_names.cc.o
-logger: CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o
+logger: CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o
+logger: CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o
 logger: CMakeFiles/logger.dir/main.cpp.o
 logger: CMakeFiles/logger.dir/build.make
 logger: CMakeFiles/logger.dir/link.txt
@@ -340,8 +340,8 @@ CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/Logger/ChromeLogger.cc.o.r
 CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/Logger/DummyLogger.cc.o.requires
 CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/Logger/NullLogger.cc.o.requires
 CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/Message.cc.o.requires
-CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/loglevel_names.cc.o.requires
-CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/loglevel_RFC_5424.cc.o.requires
+CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/Libraries/loglevel_names.cc.o.requires
+CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/Libraries/loglevel_RFC_5424.cc.o.requires
 CMakeFiles/logger.dir/requires: CMakeFiles/logger.dir/main.cpp.o.requires
 
 .PHONY : CMakeFiles/logger.dir/requires

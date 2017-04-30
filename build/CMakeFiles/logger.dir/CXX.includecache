@@ -16,11 +16,27 @@ ctime
 chrono
 -
 
+/home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.cc
+loglevel_RFC_5424.h
+/home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.h
+
+/home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.h
+
+/home/alexander/Programming/c++/Logger/Libraries/loglevel_names.cc
+loglevel_names.h
+/home/alexander/Programming/c++/Logger/Libraries/loglevel_names.h
+string
+-
+
+/home/alexander/Programming/c++/Logger/Libraries/loglevel_names.h
+string
+-
+
 /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.cc
 AbstractLogger.h
 /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.h
-../loglevel_RFC_5424.h
-/home/alexander/Programming/c++/Logger/loglevel_RFC_5424.h
+../Libraries/loglevel_RFC_5424.h
+/home/alexander/Programming/c++/Logger/Libraries/loglevel_RFC_5424.h
 
 /home/alexander/Programming/c++/Logger/Logger/AbstractLogger.h
 iostream
@@ -81,22 +97,6 @@ string
 -
 Helper/Time.h
 /home/alexander/Programming/c++/Logger/Helper/Time.h
-
-/home/alexander/Programming/c++/Logger/loglevel_RFC_5424.cc
-loglevel_RFC_5424.h
-/home/alexander/Programming/c++/Logger/loglevel_RFC_5424.h
-
-/home/alexander/Programming/c++/Logger/loglevel_RFC_5424.h
-
-/home/alexander/Programming/c++/Logger/loglevel_names.cc
-loglevel_names.h
-/home/alexander/Programming/c++/Logger/loglevel_names.h
-string
--
-
-/home/alexander/Programming/c++/Logger/loglevel_names.h
-string
--
 
 /home/alexander/Programming/c++/Logger/main.cpp
 iostream

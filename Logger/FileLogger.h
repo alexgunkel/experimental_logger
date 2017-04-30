@@ -11,7 +11,8 @@ class FileLogger : public AbstractLogger
 private:
   const char* target;
   
-  void writeToFile(Message* m);
+  void writeToFile(Message* m, int level);
+  std::string formatMessageOutput(Message* m, int level);
 public:
   void log( int loglevel,  std::string  );
   
