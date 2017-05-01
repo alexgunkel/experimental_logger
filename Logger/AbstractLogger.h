@@ -9,6 +9,8 @@ private:
   const int max_message_size = 1000;
 
 public:
+  virtual ~AbstractLogger() {};
+
   void debug( std::string );
   void info( std::string );
   void notice( std::string );
